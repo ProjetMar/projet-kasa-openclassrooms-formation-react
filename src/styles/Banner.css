@@ -1,0 +1,38 @@
+.banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  color: white;
+  max-width: 1240px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom: 43px;
+}
+.banner--props {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png");
+  padding-top: 111.5px;
+  padding-bottom: 111.5px;
+}
+.banner--home {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../assets/banner.png");
+  padding-top: 83.9px;
+  padding-bottom: 83.9px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.banner__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.banner__container h1 {
+  font-size: 3em;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=Banner.css.map */

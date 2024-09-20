@@ -1,0 +1,30 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 100px;
+
+  &__menu{
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+
+    a{
+      margin-left: 30px;
+      color: black;
+      text-decoration: none;
+    }
+    a.active{ 
+      text-decoration: underline;
+    }
+  }
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}

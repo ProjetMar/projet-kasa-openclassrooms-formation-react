@@ -1,0 +1,40 @@
+
+.banner{
+    // background-color: rgb(0, 0, 0, 0.6);
+    // background-image: url("../assets/banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    color: white;
+    max-width: 1240px;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 43px;
+    &--props{
+        background-color: rgb(0, 0, 0, 0.3);
+        background-image: url("../assets/kalen-emsley-Bkci_8qcdvQ-unsplash\ 2.png");
+        padding-top: 111.5px;
+        padding-bottom: 111.5px;
+    }
+    &--home{
+        background-color: rgb(0, 0, 0, 0.6) ;
+        background-image: url("../assets/banner.png");
+        padding-top: 83.9px;
+        padding-bottom: 83.9px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-left: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        h1{
+            font-size: 3em;
+            margin: 0px;
+        }
+    }
+
+}
