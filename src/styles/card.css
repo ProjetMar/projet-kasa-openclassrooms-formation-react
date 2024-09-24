@@ -1,0 +1,27 @@
+.card {
+  position: relative;
+  display: block;
+  max-height: 340px;
+  border-radius: 10px;
+}
+.card__title {
+  position: absolute;
+  color: white;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  min-height: 52px;
+  margin: 0px;
+  padding: 268px 20px 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  font-size: 1.125em;
+  border-radius: 10px;
+}
+.card__image {
+  width: 100%;
+  height: auto;
+  min-height: 340px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=card.css.map */

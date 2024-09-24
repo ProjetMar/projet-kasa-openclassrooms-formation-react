@@ -3,7 +3,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 1240px;
+  margin: auto;
 }
 .header__menu {
   list-style: none;
@@ -27,4 +30,4 @@ body {
   font-size: 1em;
 }
 
-/*# sourceMappingURL=Header.css.map */
+/*# sourceMappingURL=header.css.map */

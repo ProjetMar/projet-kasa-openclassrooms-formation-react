@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.collapse {
+  width: 100%;
+  max-width: 1023px;
+  border-radius: 10px;
+}
+.collapse__open {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF6060;
+  color: white;
+  padding: 10px 9px 8px 15px;
+  line-height: 34px;
+  border-radius: 5px;
+  /* Classe pour faire tourner la flèche vers le bas */
+}
+.collapse__open button {
+  background-color: #FF6060;
+  border: none;
+}
+.collapse__open img {
+  transition: transform 500ms ease-in-out;
+}
+.collapse__open .rotate img {
+  transform: rotate(-180deg);
+}
+.collapse__open p {
+  font-weight: 700;
+  font-size: 1.125em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.collapse__text {
+  background: rgba(246, 246, 246, 0.4509803922);
+  border-radius: 5px;
+}
+.collapse__text p {
+  margin: 0px;
+  padding: 25px 28px 20px 20px;
+}
+
+/*# sourceMappingURL=Collapse.css.map */

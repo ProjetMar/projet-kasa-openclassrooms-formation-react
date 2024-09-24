@@ -1,0 +1,38 @@
+.collapse{
+    width: 100%;
+    max-width: 1023px;
+    border-radius: 10px;
+    &__open{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FF6060;
+        color: white;
+        padding: 10px 9px 8px 15px;
+        line-height: 34px;
+        border-radius: 5px;
+        button{
+            background-color: #FF6060;
+            border: none;
+        }
+        img {
+            transition: transform 500ms ease-in-out;
+        }
+        .rotate img {
+            transform: rotate(-180deg);
+        }
+        p{
+            font-weight: 700;
+            font-size: 1.125em;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+    &__text{
+        background: #F6F6F673;
+        border-radius: 5px;
+        p{
+            margin: 0px;
+            padding: 25px 28px 20px 20px;
+        }
+    }
+}
