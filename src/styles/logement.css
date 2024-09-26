@@ -1,0 +1,67 @@
+.information {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+}
+.information__sectionTwo {
+  justify-self: end;
+}
+.information__sectionTwo__host {
+  display: flex;
+  gap: 10px;
+}
+.information__sectionTwo__host p {
+  font-size: 1.125em;
+  color: #FF6060;
+  margin: auto;
+}
+.information__sectionTwo__host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.information__sectionTwo__stars {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 21px;
+}
+.information__sectionTwo__stars img {
+  padding: 5.5px;
+}
+.information__sectionOne {
+  justify-self: start;
+}
+.information__sectionOne ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.information__sectionOne ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #FF6060;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 115px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.information__sectionOne h1 {
+  font-size: 2.25em;
+  color: #FF6060;
+  margin: 0px;
+  font-weight: 500;
+  line-height: 51.34px;
+}
+.information__sectionOne p {
+  font-size: 1.125em;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=logement.css.map */

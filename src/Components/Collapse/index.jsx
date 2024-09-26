@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 import vector from "../../assets/Vector.png"
 import"../../styles/Collapse.css"
-function Collapse(){
+function Collapse({name,description}){
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="collapse">
           <div className='collapse__open'>
-            <p>titre</p>
-            <button 
-              className={`${isOpen ? 'rotate' : ''}`} 
+            <p>{name}</p>
+            <button  className={`${isOpen ? 'rotate' : ''}`}
               onClick={() => setIsOpen(!isOpen)}
             >
-              <img src={vector} alt="bouton ouverture" />
+              <img 
+              src={vector} alt="bouton ouverture" />
             </button>
           </div>
           {isOpen && (
             <div className='collapse__text'>
-              <p>le texte est ici</p>
+              <p>{description}</p>
             </div>
           )}
         </div>

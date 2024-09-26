@@ -1,0 +1,35 @@
+.Carrousel {
+  position: relative;
+  height: 415px;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.Carrousel__picture {
+  height: 415px;
+  width: 100%;
+  object-fit: cover;
+}
+.Carrousel__btnBefore {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background: none;
+  border: none;
+}
+.Carrousel__btnAfter {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  background: none;
+  border: none;
+}
+.Carrousel__nbr {
+  color: white;
+  position: absolute;
+  top: 85%;
+  right: 50%;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=carrousel.css.map */
