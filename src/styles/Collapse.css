@@ -4,6 +4,9 @@
   border-radius: 10px;
   margin: auto;
 }
+.collapse--logement {
+  margin: 0;
+}
 .collapse__open {
   display: flex;
   justify-content: space-between;
@@ -38,4 +41,4 @@
   padding: 25px 28px 20px 20px;
 }
 
-/*# sourceMappingURL=Collapse.css.map */
+/*# sourceMappingURL=collapse.css.map */

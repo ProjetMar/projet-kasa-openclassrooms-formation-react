@@ -1,7 +1,6 @@
 .card{
     position: relative;
     display: block;
-    max-height: 340px;
     border-radius: 10px;
     &__title{
         position: absolute;
@@ -11,6 +10,7 @@
         bottom: 0px;
         min-height: 52px;
         margin: 0px;
+        margin-bottom: 3px;
         padding: 268px 20px 20px;
         background: linear-gradient(
         180deg,

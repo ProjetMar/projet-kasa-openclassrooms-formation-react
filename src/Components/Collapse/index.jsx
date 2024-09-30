@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import vector from "../../assets/Vector.png"
 import"../../styles/Collapse.css"
-function Collapse({name,description}){
+function Collapse({isLogement,name,description}){
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className="collapse">
+        <div className={`collapse ${isLogement ? 'collapse--logement':''}`}>
           <div className='collapse__open'>
             <p>{name}</p>
             <button  className={`${isOpen ? 'rotate' : ''}`}

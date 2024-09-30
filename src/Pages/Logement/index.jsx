@@ -3,7 +3,9 @@ import data from '../../data.json'
 import Carrousel from "../../Components/Carrousel";
 import etoileR from "../../assets/etoileR.png";
 import etoileG from "../../assets/etoileG.png";
+import Collapse from "../../Components/Collapse";
 import "../../styles/logement.css"
+import "../../styles/Collapse.css"
 function Logement(){
     const {id} = useParams()
     console.log(id)
@@ -50,8 +52,25 @@ function Logement(){
                     ))} 
                     {notTotale && (tabEtoileRest.map((key)=>(<img key={key} src={etoileG} alt="etoileGrise"/>)))} 
                 </div>  
-            </div>  
-           
+            </div>   
+        </div>
+        <div className="informationTwo">
+            <Collapse
+                key={logement.name + "1"}
+                isLogement={true}
+                name="Description"
+                description={logement.description}
+            />
+            <Collapse
+                key={logement.name + "2"}
+                isLogement={true}
+                name="Equipments"
+                description={<ul>
+                    {logement.equipments.map((equ) => (
+                    <li key={equ}>{equ}</li>
+                ))}
+                </ul>}
+            />
         </div>
         </>
         

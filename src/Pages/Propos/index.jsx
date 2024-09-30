@@ -36,6 +36,7 @@ function Propos() {
       {data.map((data) => (
         <Collapse
             key={data.name}
+            isLogement={false}
             name={data.name}
             description={data.description}
         />

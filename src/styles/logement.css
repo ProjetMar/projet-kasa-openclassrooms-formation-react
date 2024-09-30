@@ -3,8 +3,21 @@
   grid-template-columns: 2fr 1fr;
   width: 100%;
 }
+@media (max-width: 870px) {
+  .information {
+    grid-template-columns: 1fr;
+  }
+}
 .information__sectionTwo {
   justify-self: end;
+}
+@media (max-width: 870px) {
+  .information__sectionTwo {
+    display: flex;
+    justify-self: auto;
+    justify-content: space-between;
+    margin-bottom: 13px;
+  }
 }
 .information__sectionTwo__host {
   display: flex;
@@ -62,6 +75,23 @@
 .information__sectionOne p {
   font-size: 1.125em;
   margin: 0px;
+}
+
+.informationTwo {
+  width: 100%;
+  gap: 76px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.informationTwo ul {
+  padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+}
+@media (max-width: 870px) {
+  .informationTwo {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=logement.css.map */

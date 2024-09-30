@@ -3,6 +3,9 @@
     max-width: 1023px;
     border-radius: 10px;
     margin: auto;
+    &--logement{
+        margin: 0;
+    }
     &__open{
         display: flex;
         justify-content: space-between;
