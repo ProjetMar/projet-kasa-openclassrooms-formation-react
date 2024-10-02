@@ -4,24 +4,37 @@
     width: 100%;
     margin-bottom: 30px;
     margin-top: 10px;
+    @media (max-width: 480px) {
+        height: auto;
+        margin-bottom: 15px;
+    }
     &__picture{
         height: 415px;
         width: 100%;
         object-fit: cover;
+        @media (max-width: 480px) {
+            height: auto;
+        }
     }
     &__btnBefore{
-        position: absolute;
-        top: 40%;
-        left: 0;
-        background: none;
-        border: none;
+        left: 0;   
     }
     &__btnAfter{
+        right: 0;
+    }
+    &__btnAfter, &__btnBefore{
         position: absolute;
         top: 40%;
-        right: 0;
         background: none;
         border: none;
+        img{
+            @media (max-width: 768px) {
+                width: 35px;
+            }
+            @media (max-width: 480px) {
+                width: 23px;
+            }
+        }
     }
     &__nbr{
         color: white;

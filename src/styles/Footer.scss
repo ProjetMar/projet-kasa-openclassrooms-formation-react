@@ -10,5 +10,11 @@
         font-size: 1.5em;
         margin: 0px;
         margin-top: 28.6px;
+        @media (max-width: 768px) {
+            font-size: 1.33em;
+          }
+          @media (max-width: 480px) {
+            font-size: 12px;
+          }
     }
 }

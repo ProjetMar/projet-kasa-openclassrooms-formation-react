@@ -5,24 +5,43 @@
   margin-bottom: 30px;
   margin-top: 10px;
 }
+@media (max-width: 480px) {
+  .Carrousel {
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
 .Carrousel__picture {
   height: 415px;
   width: 100%;
   object-fit: cover;
 }
+@media (max-width: 480px) {
+  .Carrousel__picture {
+    height: auto;
+  }
+}
 .Carrousel__btnBefore {
+  left: 0;
+}
+.Carrousel__btnAfter {
+  right: 0;
+}
+.Carrousel__btnAfter, .Carrousel__btnBefore {
   position: absolute;
   top: 40%;
-  left: 0;
   background: none;
   border: none;
 }
-.Carrousel__btnAfter {
-  position: absolute;
-  top: 40%;
-  right: 0;
-  background: none;
-  border: none;
+@media (max-width: 768px) {
+  .Carrousel__btnAfter img, .Carrousel__btnBefore img {
+    width: 35px;
+  }
+}
+@media (max-width: 480px) {
+  .Carrousel__btnAfter img, .Carrousel__btnBefore img {
+    width: 23px;
+  }
 }
 .Carrousel__nbr {
   color: white;

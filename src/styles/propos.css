@@ -5,5 +5,10 @@
   width: 100%;
   margin-bottom: 38px;
 }
+@media (max-width: 480px) {
+  .info {
+    gap: 20px;
+  }
+}
 
 /*# sourceMappingURL=propos.css.map */

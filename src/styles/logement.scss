@@ -2,22 +2,25 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     width: 100%;
-    @media (max-width: 870px) {
+    @media (max-width: 768px) {
         grid-template-columns: 1fr;
     }
     &__sectionTwo{
         justify-self: end;
-        @media (max-width: 870px) {
+        @media (max-width: 768px) {
             display: flex;
             justify-self: auto;
             justify-content: space-between;
             margin-bottom: 13px;
+            flex-direction: row-reverse;
         }
         &__host{
             display: flex;
             gap: 10px;
+            justify-content: flex-end;
             p{
-                font-size: 1.125em;
+                //font-size: 1.125em;
+                width: min-content;
                 color: #FF6060;
                 margin: auto;
             }
@@ -31,8 +34,18 @@
             display: flex;
             justify-content: flex-end;
             margin-top: 21px;
+            @media (max-width: 768px) {
+                margin-top: 0px;
+                display: flex;
+                align-items: center;
+            }
             img{
                 padding: 5.5px;
+                @media (max-width: 768px) {
+                    width: 18px;
+                    height: 18px;
+                    padding: 2.5px;
+                }
             }
         }
     }
@@ -57,6 +70,12 @@
                 padding-top: 3px;
                 padding-bottom: 2px;
                 text-align: center;
+                @media (max-width: 768px) {
+                    font-size: 12px;
+                }
+                @media (max-width: 480px) {
+                    font-size: 10px;
+                }
             }
         }
         h1{
@@ -65,9 +84,17 @@
             margin: 0px;
             font-weight: 500;
             line-height: 51.34px;
+            @media (max-width: 768px) {
+                font-size: 2em;
+                line-height: 45.6px;
+            }
+            @media (max-width: 480px) {
+                font-size: 18px;
+                line-height: 25.67px;
+            }
         }
         p{
-            font-size: 1.125em;
+            //font-size: 1.125em;
             margin: 0px;
         }
     }
@@ -82,7 +109,8 @@
         list-style-type: none;
         margin: 0px;
     }
-    @media (max-width: 870px) {
+    @media (max-width: 768px) {
         flex-direction: column;
+        gap: 20px;
     }
 }

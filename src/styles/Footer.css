@@ -12,5 +12,15 @@
   margin: 0px;
   margin-top: 28.6px;
 }
+@media (max-width: 768px) {
+  .footer__p {
+    font-size: 1.33em;
+  }
+}
+@media (max-width: 480px) {
+  .footer__p {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=Footer.css.map */

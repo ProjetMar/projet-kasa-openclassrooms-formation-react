@@ -4,22 +4,40 @@
     align-items: center;
     gap: 139px;
     margin-bottom: 139px;
+    @media (max-width: 480px) {
+        gap: 113px;
+        margin-bottom: 113px;
+    }
     &__404{
         font-size: 288px;
         margin: 0px;
         font-weight: 700;
         line-height: 263px;
         color: #FF6060;
+        @media (max-width: 768px) {
+            font-size: 150px;
+            line-height: 136.9px;
+        }
+        @media (max-width: 480px) {
+            font-size: 96px;
+        }
     }
     h2{
         font-size: 2.25em;
         font-weight: 500;
         color: #FF6060;
         margin: 0px;
+        text-align: center;
+        @media (max-width: 768px) {
+            font-size: 2em;
+        }
+        @media (max-width: 480px) {
+            font-size: 1.125em;
+        }
     }
     a{
         color: black;
-        font-size: 1.125em;
+        //font-size: 1.125em;
         margin: 0px;
     }
 }

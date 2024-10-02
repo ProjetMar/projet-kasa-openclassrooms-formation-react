@@ -9,5 +9,14 @@
   border-radius: 25px;
   margin-bottom: 50px;
 }
+@media (max-width: 480px) {
+  .gallery {
+    padding: 0px;
+    background-color: white;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=home.css.map */

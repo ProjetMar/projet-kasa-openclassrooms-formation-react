@@ -4,7 +4,7 @@
   border-radius: 10px;
   margin: auto;
 }
-.collapse--logement {
+.collapse--noMargin {
   margin: 0;
 }
 .collapse__open {
@@ -23,12 +23,21 @@
 .collapse__open img {
   transition: transform 500ms ease-in-out;
 }
+@media (max-width: 768px) {
+  .collapse__open img {
+    width: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .collapse__open img {
+    width: 16px;
+  }
+}
 .collapse__open .rotate img {
   transform: rotate(-180deg);
 }
 .collapse__open p {
   font-weight: 700;
-  font-size: 1.125em;
   margin-top: auto;
   margin-bottom: auto;
 }

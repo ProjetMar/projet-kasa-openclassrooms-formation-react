@@ -3,7 +3,7 @@
     max-width: 1023px;
     border-radius: 10px;
     margin: auto;
-    &--logement{
+    &--noMargin{
         margin: 0;
     }
     &__open{
@@ -20,13 +20,19 @@
         }
         img {
             transition: transform 500ms ease-in-out;
+            @media (max-width: 768px) {
+                width: 20px;
+            }
+            @media (max-width: 480px) {
+                width: 16px;
+            }
         }
         .rotate img {
             transform: rotate(-180deg);
         }
         p{
             font-weight: 700;
-            font-size: 1.125em;
+            //font-size: 1.125em;
             margin-top: auto;
             margin-bottom: auto;
         }

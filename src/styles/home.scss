@@ -8,4 +8,12 @@
     background-color: #f6f6f6;
     border-radius: 25px;
     margin-bottom: 50px;
+   
+    @media (max-width: 480px) {
+        padding: 0px;
+        background-color: white;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
 }
