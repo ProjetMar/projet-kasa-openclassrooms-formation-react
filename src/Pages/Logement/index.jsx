@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import data from '../../data.json'
 import Carrousel from "../../Components/Carrousel";
 import Collapse from "../../Components/Collapse";
-import "../../styles/logement.css"
-import "../../styles/Collapse.css"
+import "../../styles/Logement/logement.css"
+import "../../styles/Collapse/Collapse.css"
 import NotFound from "../NotFound";
 import Etoile from "../../Components/Etoile";
 function Logement(){

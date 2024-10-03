@@ -14,7 +14,7 @@
 }
 .banner--props {
   background-color: rgba(0, 0, 0, 0.3);
-  background-image: url("../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png");
+  background-image: url("../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png");
   padding-top: 111.5px;
   padding-bottom: 111.5px;
 }
@@ -26,7 +26,7 @@
 }
 .banner--home {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url("../assets/banner.png");
+  background-image: url("../../assets/banner.png");
   padding-top: 83.9px;
   padding-bottom: 83.9px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);

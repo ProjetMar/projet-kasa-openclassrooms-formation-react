@@ -3,7 +3,7 @@
 import Banner from "../../Components/Banner";
 import Card from "../../Components/Card";
 import data from "../../data.json"
-import "../../styles/home.css"
+import "../../styles/Home/home.css"
 function Home() {
     return <>
     <Banner description="Chez vous, partout et ailleurs" classbanner="banner--home"/>

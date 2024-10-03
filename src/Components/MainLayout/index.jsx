@@ -1,6 +1,6 @@
 import Header from '../Header';
 import Footer from '../Footer';
-import "../../styles/main.css"
+import "../../styles/Main/main.css"
 
 function MainLayout({ children }) {
   return (

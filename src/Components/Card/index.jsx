@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../../styles/card.css"
+import "../../styles/Card/card.css"
 function Card({ title, cover, id }) {
     return (
       <Link className="card" to={`pages/Logement/${id}`}> 

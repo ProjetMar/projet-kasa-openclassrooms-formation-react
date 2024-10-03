@@ -2,7 +2,7 @@
 //import Header from "../../Components/Header";
 import Banner from "../../Components/Banner";
 import Collapse from "../../Components/Collapse";
-import "../../styles/propos.css"
+import "../../styles/Propos/propos.css"
 const data =  [
     {
       name: 'Fiabilité',

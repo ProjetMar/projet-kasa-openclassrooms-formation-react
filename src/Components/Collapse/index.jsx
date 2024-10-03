@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import vector from "../../assets/Vector.png"
-import"../../styles/Collapse.css"
+import"../../styles/Collapse/Collapse.css"
 function Collapse({isMarginZero,name,description}){
     const [isOpen, setIsOpen] = useState(false);
     return (

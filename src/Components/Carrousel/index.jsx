@@ -1,7 +1,7 @@
 import { useState } from "react";
 import prec from "../../assets/precedent.png"
 import suivant from "../../assets/suivant.png"
-import "../../styles/carrousel.css"
+import "../../styles/Carrousel/carrousel.css"
 function Carrousel( {pictures, title}){
     const n=pictures.length; 
     const [count, setCount]=useState(0)

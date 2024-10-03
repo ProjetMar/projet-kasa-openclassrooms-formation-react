@@ -1,5 +1,5 @@
 
-import "../../styles/Banner.css"
+import "../../styles/Banner/Banner.css"
 function Banner({description , classbanner}) {
     return (<div className={`banner ${classbanner}`}>
         <div className="banner__container">
