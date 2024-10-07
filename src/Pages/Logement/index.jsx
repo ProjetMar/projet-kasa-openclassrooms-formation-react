@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import data from '../../data.json'
-import Carrousel from "../../Components/Carrousel";
+import Carrousel from '../../Components/Carrousel';
 import Collapse from "../../Components/Collapse";
 import "../../styles/Logement/logement.css"
 import "../../styles/Collapse/Collapse.css"

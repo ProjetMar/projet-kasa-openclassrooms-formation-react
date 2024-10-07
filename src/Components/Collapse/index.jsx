@@ -21,26 +21,6 @@ function Collapse({isMarginZero,name,description}){
           )}
         </div>
       );
-    
-    // return isOpen ? (
-    //     <div className="collapse">
-    //         <div className='collapse__open'>
-    //             <p>titre</p>
-    //             <button className='collapse__open--modif' onClick={() => setIsOpen(false)}><img src={vector} alt="buttom ouverture"/></button>
-    //         </div>
-    //         <div className='collapse__text'>
-    //             <p>le text est ici</p>
-    //         </div>
-    //     </div>
-    // ):(
-
-    //     <div className="collapse">
-    //         <div className='collapse__open'>
-    //             <p>titre</p>
-    //             <button className='collapse__open--modif1' onClick={() => setIsOpen(true)}><img src={vectorC} alt="buttom ouverture"/></button>
-    //         </div>
-    //     </div>
-    // )
 }
 export default Collapse
 
